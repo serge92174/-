@@ -1,0 +1,22 @@
+#Загружаем библиотеки
+import numpy as np 
+import pandas as pd 
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn import model_selection, preprocessing
+import datetime
+from sklearn.ensemble import RandomForestRegressor
+%matplotlib inline
+#Загружаем выборки train и test
+train_df = pd.read_csv('D:/python/m1.csv')
+
+
+
+
+
+ошибка
+pandas\_libs\parsers.pyx in pandas._libs.parsers.TextReader.__cinit__()
+
+pandas\_libs\parsers.pyx in pandas._libs.parsers.TextReader._get_header()
+
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd1 in position 0: invalid continuation byte
